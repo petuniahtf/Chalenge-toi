@@ -8,8 +8,12 @@ const Conteneur = () =>{
 
     return(
         <div className="container__conteneur">
-        <QuiltedImageList/>
-        <Dutext/>
+            <div >
+              <QuiltedImageList/>
+            </div>
+            <div>
+              <Dutext/>
+            </div>  
         </div>
     )
 }
