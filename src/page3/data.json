@@ -1,0 +1,27 @@
+[
+    {
+       "id" : 1,
+       "word" : "mot",
+       "definition" : "permet de construire une phrase, pour comminiquer avec d'autre personne."
+    },
+    {
+        "id" : 2,
+        "word" : "json",
+        "definition" : "format de donner , Le JSON permet de transférer et très utiliser, cependant il est mauvais pour ma santée mental "
+     },
+     {
+        "id" : 3,
+        "word" : "entraide",
+        "definition" : "principe d'aide mutuelle"
+     },
+     {
+        "id" : 4,
+        "word" : "stupide",
+        "definition" : "se dit d'une personne qui ne comprend pas tout"
+     },
+     {
+        "id" : 5,
+        "word" : "musique",
+        "definition" : "son produit par quelque chose qui se percoit avec l'ouïe"
+     }
+]

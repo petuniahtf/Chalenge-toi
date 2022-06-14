@@ -1,0 +1,37 @@
+import React from "react";
+import data from '../data.json'
+import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
+
+const Home3 = () => {
+  const [definitionSelected, setDefinitionSelected ] = React.useState('')
+  const [motSelected, setMotSelected] = React.useState()
+  const wordSelected = data;
+
+  console.log(`les donner sont ok ? ${wordSelected}`)
+
+  const handleChange = (id) =>{
+
+    setMotSelected()
+    setDefinitionSelected(wordSelected[id].definition)
+  } 
+
+  return (
+    <div>
+    <FormControl fullWidth>
+      <InputLabel id="demo-simple-select-label">Votre Mot</InputLabel>
+      <Select
+        labelId="demo-simple-select-label"
+        id="demo-simple-select"
+        value={motSelected}
+        label="Age"
+        onChange={handleChange}
+      >
+        {wordSelected.map((i) =><MenuItem key={i.id} value={i.word}>{i.word}</MenuItem>)}
+      </Select>
+    </FormControl>
+    <p>{definitionSelected}</p>
+    </div>
+  )
+}
+
+export default Home3;
