@@ -13,7 +13,7 @@ const Home3 = () => {
   const handleChange = (e) => {
     e.preventDefault()
     setMotSelected(e.target.value)
-    setDefinitionAfficher(wordSelected[i].definition)
+    setDefinitionAfficher(wordSelected[i]?.definition)
   }
 
   return (
