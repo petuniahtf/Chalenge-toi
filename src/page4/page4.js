@@ -15,11 +15,12 @@ const Page4 = ()=>{
         })
         .then(json =>{
             console.log(json.backdrop_path)
-            return setImgApi(json.backdrop_path)
+            return setImgApi(`https://image.tmdb.org/t/p/w500${json.poster_path}`)
         })
         .catch(error => {console.log(`l'erreur vien du fetch ${error}`)})
 
-    },[])
+    },[imgApi])
+  console.log(`après le setter ${imgApi}`)
 
     return (
         <>
@@ -27,7 +28,8 @@ const Page4 = ()=>{
         <Button variant="contained" href="/">Home</Button>
         </div>
         <div>
-        <img scr={`https://image.tmdb.org/t/p/w500${imgApi}`} alt="c'est cesé etre un img" />
+            <img src={imgApi} alt=""/>
+        
         </div>
         </>
     )
