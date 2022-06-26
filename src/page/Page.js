@@ -10,6 +10,7 @@ const Page =() =>{
     <Button variant="outlined" href="/page3">Page 3</Button>
     <Button variant="outlined" href="/page4">Page 4</Button>
     <Button variant="outlined" href="/page5">Page 5</Button>
+    <Button variant="outlined" href="/page6">Page 6</Button>
     </>
     )
 }
