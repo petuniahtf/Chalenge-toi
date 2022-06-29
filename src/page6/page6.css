@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+   justify-content: center;
+    align-content: center;
+}
+.container__type{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 300px 150px ;
+}
+
+.container__type img{
+    grid-column-start: 1;
+    
+}
+
+.container__tupe{
+    grid-column: 2;
+}
+
+.container__tape {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
