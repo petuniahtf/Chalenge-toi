@@ -1,0 +1,16 @@
+.container__social{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.container__social img{
+    grid-column-start: 1;
+}
+.text1{
+    grid-column-start: 2;
+}
+ 
+.container__social button{
+    grid-column-start: 3;
+}
