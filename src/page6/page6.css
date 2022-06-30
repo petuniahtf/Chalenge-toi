@@ -3,13 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    /*align-content: center;*/
-    /*vertical-align: middle;*/
-    /*position: relative;*/
-    
+
 }
 .container__type{
-    /*position: absolute;*/
     display: grid;
     grid-template-columns: 450px 450px;
     grid-template-rows: 300px 150px ;
